@@ -4,7 +4,9 @@ The SRSB is B(13) articles about SRS.
 
 ## Content
 
-1. [Preface](Preface.md)
+SRSB的目录：
+
+1. [Preface: 前言](Preface.md)
 
 ## Legal
 
