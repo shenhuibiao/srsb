@@ -7,6 +7,8 @@ The SRSB is B(13) articles about SRS.
 SRSB的目录：
 
 1. [Preface: 前言](Preface.md)
+1. [Concurrency: 单核并发](Concurrency.md)
+1. [Multiple CPUs: 多核性能](MultipleCpus.md)
 
 ## Legal
 
