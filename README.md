@@ -10,7 +10,7 @@ SRSB的目录：
 1. [Concurrency: 单核并发](Concurrency.md)
 1. [Multiple CPUs: 多核性能](MultipleCpus.md)
 
-## Legal
+## License
 
 Article License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/legalcode.txt)
 
