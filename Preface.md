@@ -50,6 +50,6 @@ Attribution-ShareAlike 3.0 Unported
 其他的我再说吧。你如果想知道点啥，也可以加我微信群，人数太多了只能加我微信：winterserver，
 我再加你到群里吧。懂了吧？
 
-![Weixin](http://ossrs.net/srsb/weixin.png)
+![Weixin](http://ossrs.net/srsb/weixin.png?v=1)
 
 Winlin 2016.2
