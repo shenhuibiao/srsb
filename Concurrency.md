@@ -103,7 +103,8 @@ Attribution-ShareAlike 3.0 Unported
 
 ## Model
 
-引用golang中一个看似简单实际上难以理解的一个并发编程模型，[Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)：
+引用golang中一个看似简单实际上难以理解的一个并发编程模型，
+[Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)：
 
 ```
 Concurrent programming has its own idioms. A good example is timeouts. 
@@ -123,5 +124,7 @@ case <-timeout:
 
 实际上，所有的并发都是这个模型，也就是服务器实际上都是在做这个事情。
 是不是相当难以理解？难道nginx、nodejs和apache都是在做这个事情？是的呢。
+不过，linux的并发为何没有epoll或select呢？它们两个只是模型中的事件源，
+并非整个并发编程的模型。
 
 2016.2
