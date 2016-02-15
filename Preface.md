@@ -42,7 +42,7 @@ Attribution-ShareAlike 3.0 Unported
 要是你觉得没有什么逻辑，那就对了，装B是不需要逻辑的。我想到哪里就写哪里，大致这个大B分为一下十三篇：
 
 1. [Concurrentcy](Concurrency.md)，懂么？并发呀，流服务器的并发，和一般WEB的并发是不一样的哦。
-1. [Multiple CPUs](MultipleCpus.md)，前一章[Concurrentcy](Concurrency.md)讲的是单核并发，这章讲多核。
+1. [Multiple Cores](MultipleCores.md)，前一章[Concurrentcy](Concurrency.md)讲的是单核并发，这章讲多核。
 
 这两章都是讲性能，性能问题一直是服务器领域最佳装逼点，这个就像日本动作片，你看那个频率那个幅度简直能吓死人，
 那个就是高性能；实际上然并卵有个毛线用，过于关注性能的人其实是新手，太幼稚，图样。
