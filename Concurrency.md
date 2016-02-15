@@ -95,10 +95,33 @@ Attribution-ShareAlike 3.0 Unported
 因此，正确的并发设计在于两点：
 
 1. 在开发人员的理解范围之内，并能持续增加功能应对新需求。
-1. 在现有网络条件能支持的最大并发，考虑万兆网络。
+1. 支持现有网络条件能支持的最大并发，即万兆网络。
 
 > 备注：流服务器系统的根本困难，在于设计一个持续不断增长的服务系统；次要困难是协议解析和性能。
 
 先了解次要困难，关于性能中的并发。从linux能用的API开始，毕竟我们还是要用Linux服务器的。
+
+## Model
+
+引用golang中一个看似简单实际上难以理解的一个并发编程模型，[Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)：
+
+```
+Concurrent programming has its own idioms. A good example is timeouts. 
+Although Go's channels do not support them directly, they are easy to implement. 
+```
+
+看下面这段代码：
+
+```
+select {
+case <-ch:
+    // a read from ch has occurred
+case <-timeout:
+    // the read from ch has timed out
+}
+```
+
+实际上，所有的并发都是这个模型，也就是服务器实际上都是在做这个事情。
+是不是相当难以理解？难道nginx、nodejs和apache都是在做这个事情？是的呢。
 
 2016.2
